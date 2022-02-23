@@ -1,0 +1,28 @@
+Regular expressions
+regular expression always comes in between these two sumbolx /...../ 
+^(cap) -> it always check from the begining
+$ -> it always check from the end
+
+[a-z] -> it only checks lowercase alphabets from a to z
+[A-Z] -> it only checks uppercase alphabets from A to Z
+[a-zA-Z] -> or [A-Za-z] -> it checks both lowercase and uppercase alphabets
+[0-9] -> it checks all the numeric value
+
+for special characters use \
+example: \@, \S(space), \-,\_,\#,\. etc
+
+
+{min_value,max_value}
+{number}=default value
+
+
+
+
+
+
+for password
+
+?= -> it doesnt matter the position where it comes
+. -> matches single characters
+*-> matches zero or more precedence characters
+{min_value,max_value} -> {8,0} or {8,}  
